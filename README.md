@@ -1,1 +1,1 @@
-# Simple-Command-Interpreter
+A command interpreter is created using the C language. The interpreter is a program, in which the main process creates a child process to execute the inputted command using the exec() fammily functions. The input is taken in the form of a command and its arguments from the user. Additionally, the command interpreter will execute the inputted command and wait for the next command to be inputted. This cycle will break when the user enters exit. Typical forms of commands that may be entered are "ls -l" and "pwd", among others.
